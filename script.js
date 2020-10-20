@@ -47,7 +47,10 @@ function newQuote() {
   //Set quote , Hide Loader
   
   quoteText.textContent = quote.text;
-  complete();
+ 
+  setTimeout(() => {
+     complete()
+  }, 500);
 }
 
 // Get Quote from API
